@@ -1,20 +1,21 @@
 
 
-let num1=40;
-let num2=30;
+let fNum1=40;
+let fNum2=30;
 
 
 function one(){
-	console.log(num1+num2);
+	console.log(fNum1+fNum2);
 }
 one();
 
 const two=()=>{
-	console.log(num1-num2);
+	console.log(fNum1-fNum2);
 }
 two();
 
 const three=(a,b)=>{
 	console.log(a*b);
 }
-three(num1,num2);
+three(fNum1,fNum2);
+
